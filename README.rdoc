@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fraphael%2Frightcert.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fraphael%2Frightcert?ref=badge_shield)
+
 = RightCert
 
 Secure serialization using X.509 Certificates for digital signatures and encryption
@@ -131,3 +133,7 @@ Once initialized the serializer can be used the same way other serializers are:
 
   data = RightCert::Serializer.dump(obj)
   RightCert::Serializer.load(data).should eql(obj)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fraphael%2Frightcert.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fraphael%2Frightcert?ref=badge_large)
